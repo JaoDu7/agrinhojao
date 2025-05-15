@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festejando Conexão Campo-Cidade</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f4ef;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #4caf50, #81c784);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #388e3c;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Festejando Conexão Campo-Cidade</h1>
+    <p>Unindo culturas, histórias e tradições do campo e da cidade</p>
+  </header>
+
+  <nav>
+    <a href="historias.html">Histórias</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <div class="container">
+    <section id="historias">
+      <h2>Histórias do Campo e da Cidade</h2>
+      <div class="card">
+        <h3>Dona Maria e a Festa da Colheita</h3>
+        <p>Dona Maria, moradora do interior, compartilha como a colheita do milho virou uma festa tradicional que hoje atrai turistas da cidade.</p>
+      </div>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria de Fotos</h2>
+      <div class="gallery">
+        <img src="OIP.jfif" alt="Feira do interior">
+        <img src="trator.png" alt="Trator na lavoura">
+        <img src="dicas-festa-junina-2016.png" alt="Festa típica">
+        <img src="R.png.gif" alt="Cidade e campo juntos">
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Deixe seu comentário</h2>
+      <div class="card">
+        <p>Envie sua história ou mensagem para celebrarmos juntos!</p>
+        <form>
+          <input type="text" placeholder="Seu nome" style="width:100%; padding:8px; margin-bottom:10px;"><br>
+          <textarea placeholder="Sua mensagem" style="width:100%; height:100px; padding:8px;"></textarea><br>
+          <button type="submit" style="margin-top:10px; padding:10px 20px; background:#4caf50; color:white; border:none; border-radius:5px;">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Agrinho | Tema: Festejando Conexão Campo-Cidade</p>
+  </footer>
+</body>
+</html>
